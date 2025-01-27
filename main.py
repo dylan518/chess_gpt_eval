@@ -513,7 +513,8 @@ if NANOGPT:
 recording_file = "logs/determine.csv"  # default recording file. Because we are using list [player_ones], recording_file is overwritten
 player_ones = ["stockfish_16layers_ckpt_no_optimizer.pt"]
 player_ones = ["gpt-3.5-turbo-instruct"]
-player_two_recording_name = "stockfish_sweep"
+player_two_recording_name = "llama_model_2"
+player_one_recording_name="llama_model_1"
 if __name__ == "__main__":
     for player in player_ones:
         player_one_recording_name = player
